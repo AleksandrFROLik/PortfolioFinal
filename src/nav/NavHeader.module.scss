@@ -1,0 +1,24 @@
+.nav {
+  height: 10vh;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+
+  .navItems {
+    list-style-type: none;
+    display: flex;
+    margin: 0 ;
+    padding: 0;
+  }
+
+  .navItems li a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+  }
+}
+
+
+
+
+
