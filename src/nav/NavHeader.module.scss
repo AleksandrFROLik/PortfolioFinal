@@ -3,20 +3,22 @@
   display: flex;
   justify-content: end;
   align-items: center;
+  background-color: var(--color-bg);
 
   .navItems {
     list-style-type: none;
     display: flex;
     margin: 0 ;
-    padding: 0;
+    padding: 20px;
   }
 
   .navItems li a {
     text-decoration: none;
-    color: black;
+    color: var(--color-text);
     padding: 20px;
   }
 }
+
 
 
 

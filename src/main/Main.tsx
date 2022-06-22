@@ -7,7 +7,7 @@ const mainImage = {
 }
 export const Main = () => {
     return (
-        <div className={styles.main} style={mainImage}>
+        <div id='main' className={styles.main} style={mainImage}>
             <div className={styles.mainContainer}>
                 <div className={styles.textBlock}>
                     <span>Hi There</span>
