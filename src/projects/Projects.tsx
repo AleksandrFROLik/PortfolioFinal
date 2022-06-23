@@ -15,9 +15,9 @@ export const Projects = () => {
         backgroundImage: `url(${todolist})`
     }
     return (
-        <div className={styles.worksBlock}>
+        <div  id='projects' className={styles.worksBlock}>
             <div>
-                <Title title='works'/>
+                <div><Title title='works'/></div>
                 <div className={styles.works}>
                     <Project style={socialImage} description="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."/>
                     <Project style={todolistImage} description="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."/>

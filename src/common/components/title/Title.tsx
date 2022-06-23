@@ -1,9 +1,7 @@
 import React from "react";
 import styles from './Title.module.scss'
 
-type TitleType = {
-    title:string
-}
+type TitleType = { title:string }
 
 export const Title = ({title}:TitleType) => {
     return (
