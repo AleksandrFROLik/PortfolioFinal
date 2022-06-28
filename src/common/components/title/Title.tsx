@@ -8,6 +8,8 @@ export const Title = ({title}:TitleType) => {
         <div className={styles.title}>
             <h2>{title}</h2>
             <div className={styles.subLine}/>
+            <h2>{title}</h2>
+            <div className={styles.subLine}/>
         </div>
     )
 }
