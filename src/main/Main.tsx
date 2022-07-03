@@ -15,6 +15,11 @@ export const Main = () => {
                     <Title title='I am Frolov Aleksander'/>
                     <p>A Frontend developer</p>
                 </div>
+                <div className={styles.textBlock}>
+                    <span>Hi There</span>
+                    <Title title='I am Frolov Aleksander'/>
+                    <p>A Frontend developer</p>
+                </div>
             </div>
 
         </div>
