@@ -6,6 +6,7 @@ import {Title} from "../common/components/title/Title";
 const mainImage = {
     backgroundImage: `url(${buildImage})`
 }
+
 export const Main = () => {
     return (
         <div id='main' className={styles.main} style={mainImage}>
